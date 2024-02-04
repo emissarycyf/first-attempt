@@ -1,0 +1,29 @@
+.aheader{
+    color: black;
+    font-size: 50px;
+    text-align: center;
+}
+
+.nav{
+    display: flex;
+    justify-content:space-between;
+    padding: 0 30%;  
+    border: 2px solid rgba(150,147,147,0.5);  
+}
+
+.nav a{
+    text-decoration: dashed;
+    color:black;
+}
+
+.nav a:hover{
+    color: rgba(150,147,147,0.5);
+    transition: 0.3s;
+    font-size: large;
+}
+
+.linPhoto{
+    margin-left: 0.8%;
+    width: 32%;
+    object-fit: contain;
+}
