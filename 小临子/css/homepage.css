@@ -1,0 +1,83 @@
+hr{
+    color: rgba(150, 147, 147, 0.5);
+}
+
+.aheader{
+    color:black;
+    font-size: 50px;
+    text-align: center;
+}
+
+.nav{
+    color:rgba(150, 147, 147, 0.5);
+    display:flex;
+    justify-content: space-between;
+    padding: 0px 10%;
+    border: 2px solid rgba(150, 147, 147, 0.5);
+}
+
+.nav a{
+    text-decoration: dashed;
+    color:black;
+}
+
+.nav a:hover{
+    color: rgba(150, 147, 147, 0.5);
+    transition: 0.3s;
+    font-size: large;
+}
+
+.lin{
+    width: 150px;
+    height: 150px;
+    font-size:80px;
+    color:rgb(103, 179, 119);
+    display:inline;
+    position: static;
+    margin-left: 20px;
+    margin-top: 10px;
+}
+#name{
+    margin:20px;
+}
+/* .lin{
+    font-size:50px;
+    color:rgb(103, 179, 119);
+} */
+
+.new{
+    vertical-align: middle;
+    text-align: center;
+}
+
+.song{
+    font-size: 30px;
+    color: rgba(150, 147, 147, 0.5);
+    text-align: center;
+}
+
+#songphoto1{
+    width: 80px;
+    height: 80px;
+    margin: auto;
+}
+
+.songphoto2{
+    width: 30%;
+    height: 30vw;
+}
+
+.music{
+    padding: 5px;
+    border:1px,2px solid rgba(150, 147, 147, 0.5);
+    box-sizing: border-box;
+}
+
+.return{
+    position: fixed;
+    text-decoration: dashed;
+    padding: 3px;
+    border: 2px solid rgba(150, 147, 147, 0.5);
+    right: 20px;
+    bottom: 50px;
+}
